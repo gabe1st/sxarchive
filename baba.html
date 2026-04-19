@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sumxmo</title>
+    <link rel="icon" type="image/gif" href="logo.gif">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; cursor: crosshair; }
+        
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            overflow-x: hidden;
+        }
+
+        header {
+            
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            background: transparent;
+        }
+
+        .logo { 
+            width: 210px; 
+            filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.4));
+        }
+
+        .museum-container {
+            width: 100%;
+            padding: 5px;
+            column-count: 4; 
+            column-gap: 5px; 
+        }
+
+        .art-item {
+            width: 100%;
+            margin-bottom: 5px; 
+            break-inside: avoid;
+            display: inline-block;
+            border: 1px solid #111;
+            transition: all 0.3s ease;
+            background: #000;
+        }
+
+        .art-item img, .art-item video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .art-item:hover {
+            border: 1px solid #fff;
+            transform: scale(1.01);
+            z-index: 10;
+        }
+
+        @media (max-width: 1024px) { .museum-container { column-count: 3; } }
+        @media (max-width: 768px) {
+            .museum-container { column-count: 2; }
+            .logo { width: 160px; }
+        }
+        @media (max-width: 480px) { .museum-container { column-count: 1; } }
+
+        footer {
+            padding: 100px 20px;
+            text-align: center;
+            font-size: 10px;
+            letter-spacing: 5px;
+            opacity: 0.2;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo1.gif" alt="LOGO" class="logo">
+    </header>
+
+    <div class="museum-container">
+        
+        <div class="art-item"><img src="1.png"></div>
+        <div class="art-item"><video src="v1.mp4" autoplay loop muted playsinline></video></div>
+        <div class="art-item"><img src="2.png"></div>
+        <div class="art-item"><img src="3.png"></div>
+        <div class="art-item"><img src="4.png"></div>
+        <div class="art-item"><video src="v2.mp4" autoplay loop muted playsinline></video></div>
+        <div class="art-item"><img src="5.png"></div>
+        <div class="art-item"><img src="6.png"></div>
+        <div class="art-item"><video src="v3.mp4" autoplay loop muted playsinline></video></div>
+        <div class="art-item"><img src="7.png"></div>
+        <div class="art-item"><img src="8.png"></div>
+        <div class="art-item"><img src="9.png"></div>
+        <div class="art-item"><img src="10.png"></div>
+        <div class="art-item"><img src="11.png"></div>
+        <div class="art-item"><img src="12.png"></div>
+        <div class="art-item"><img src="13.png"></div>
+        <div class="art-item"><video src="v4.mp4" autoplay loop muted playsinline></video></div>
+        <div class="art-item"><img src="14.png"></div>
+        <div class="art-item"><img src="15.png"></div>
+        <div class="art-item"><img src="16.png"></div>
+        <div class="art-item"><img src="17.png"></div>
+        <div class="art-item"><img src="18.png"></div>
+        <div class="art-item"><img src="19.png"></div>
+        <div class="art-item"><video src="v5.mp4" autoplay loop muted playsinline></video></div>
+        <div class="art-item"><img src="20.png"></div>
+        <div class="art-item"><img src="21.png"></div>
+        <div class="art-item"><img src="22.png"></div>
+        <div class="art-item"><img src="23.png"></div>
+        <div class="art-item"><img src="24.png"></div>
+        <div class="art-item"><img src="25.png"></div>
+        <div class="art-item"><img src="26.png"></div>
+        <div class="art-item"><video src="v6.mp4" autoplay loop muted playsinline></video></div>
+        <div class="art-item"><img src="27.png"></div>
+        <div class="art-item"><img src="28.png"></div>
+        <div class="art-item"><img src="29.png"></div>
+        <div class="art-item"><img src="30.png"></div>
+        <div class="art-item"><img src="31.png"></div>
+        <div class="art-item"><img src="32.png"></div>
+        <div class="art-item"><img src="33.png"></div>
+        <div class="art-item"><img src="34.png"></div>
+        <div class="art-item"><img src="35.png"></div>
+        <div class="art-item"><img src="36.png"></div>
+        <div class="art-item"><img src="37.png"></div>
+        <div class="art-item"><img src="38.png"></div>
+        <div class="art-item"><img src="39.png"></div>
+        <div class="art-item"><img src="40.png"></div>
+        <div class="art-item"><img src="41.png"></div>
+        <div class="art-item"><img src="42.png"></div>
+        <div class="art-item"><img src="43.png"></div>
+        <div class="art-item"><img src="44.png"></div>
+        <div class="art-item"><img src="45.png"></div>
+        <div class="art-item"><img src="46.png"></div>
+        <div class="art-item"><img src="47.png"></div>
+        <div class="art-item"><img src="48.png"></div>
+        <div class="art-item"><video src="v7.mp4" autoplay loop muted playsinline></video></div>
+        <div class="art-item"><img src="49.png"></div>
+        <div class="art-item"><img src="50.png"></div>
+    </div>
+
+    <footer>
+        sumxmo_archive
+    </footer>
+
+</body>
+</html>
